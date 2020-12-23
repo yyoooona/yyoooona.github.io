@@ -1,3 +1,14 @@
+---
+title: Face Detection Technology
+excerpt: 얼굴 인식 기술을 활용한 실습
+search: true
+categories: 
+  - AI
+tags: 
+  - AI
+last_modified_at: 2020-12-24
+---
+
 # Face Detection (얼굴인식)
 
 
