@@ -10,7 +10,7 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.stack | sort:"date" %}
+{% assign posts = site.categories.Stack | sort:"date" %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
