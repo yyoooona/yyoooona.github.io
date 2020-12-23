@@ -48,7 +48,7 @@ face_locations = fr.face_locations(image)
 
   >좀 더 이해하기 쉽게 표현한 이미지
   >
-  >![image-20201223201137772](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223201137772.png)
+  >![image-20201223201137772](https://user-images.githubusercontent.com/47768081/102999214-fb029600-456b-11eb-8472-6b8da2d46911.png)
 
   
 
@@ -64,7 +64,7 @@ for(top, right, bottom, left) in face_locations:
 - 여기서 3은 사각형 두께
 - 해당 코드 부분 이미지 :
 
-![image-20201223193850631](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223193850631.png)
+![image-20201223193850631](https://user-images.githubusercontent.com/47768081/102999313-21c0cc80-456c-11eb-8ee8-e2f2b8a2d24e.png)
 
 
 
@@ -78,7 +78,7 @@ plt.show()
 - (16, 16) 은 사진의 크기! 얼굴인식하는 rectangle 크기 X
 - 출력 화면 :
 
-![image-20201223194147297](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223194147297.png)
+![image-20201223194147297](https://user-images.githubusercontent.com/47768081/102999358-32714280-456c-11eb-8d83-864c80a01ad4.png)
 
 
 
@@ -125,7 +125,7 @@ for face in known_face_list:
 
 - 출력 화면 : 
 
-  ![image-20201223200551082](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223200551082.png)
+  ![image-20201223200551082](https://user-images.githubusercontent.com/47768081/102999386-40bf5e80-456c-11eb-86fd-767d3c722f8d.png)
 
   
 
@@ -148,7 +148,7 @@ plt.show()
 
 - 출력 화면 :
 
-  ![image-20201223200742626](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223200742626.png)
+  ![image-20201223200742626](https://user-images.githubusercontent.com/47768081/102999434-56348880-456c-11eb-9cf8-9df3d1036e33.png)
 
 
 
@@ -163,7 +163,7 @@ plt.show()
 
 - **face_encoding 설명**
 
-![image-20201223210106931](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223210106931.png)
+![image-20201223210106931](https://user-images.githubusercontent.com/47768081/102999444-57fe4c00-456c-11eb-938a-ef0d41e25036.png)
 
 [참조] https://ukayzm.github.io/unknown-face-classifier/
 
@@ -195,7 +195,7 @@ for face in known_face_list:
 
     -> 출력 화면 : 
 
-    ![image-20201223210939256](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223210939256.png)
+    ![image-20201223210939256](https://user-images.githubusercontent.com/47768081/102999448-59c80f80-456c-11eb-97d5-d5d5bba23f35.png)
 
     * 일반적으로 distance 가 0.6 이상이면 타인이라고 볼 수 있지만 비슷한 사람은 0.5대 distance가 나오기도 한다
     * distance값이 가장 작은 2번째 person이 unknown이미지의 사람과 동일인이라고 볼 수 있다
@@ -306,11 +306,11 @@ Q.  **아바타**나 **웹툰 이미지**도 사람으로 인식하나?
 
 Test 결과 => **얼굴로 인식함!**
 
-![image-20201223213424737](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223213424737.png)
+![image-20201223213424737](https://user-images.githubusercontent.com/47768081/102999534-82e8a000-456c-11eb-8c10-37296a739c7d.png)
 
 
 
-![image-20201223213635226](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223213635226.png)
+![image-20201223213635226](https://user-images.githubusercontent.com/47768081/102999538-8419cd00-456c-11eb-9d4f-5bde1f2c39b1.png)
 
 
 
@@ -322,7 +322,7 @@ Test 결과 => **얼굴로 인식함!**
 
 
 
-![image-20201223214102185](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20201223214102185.png)
+![image-20201223214102185](https://user-images.githubusercontent.com/47768081/102999573-94ca4300-456c-11eb-9229-262d287d8d6f.png)
 
 결론 : 웹툰 그림은 얼굴 인식은 하지만 유사도 체크는 어려운 걸로!
 
