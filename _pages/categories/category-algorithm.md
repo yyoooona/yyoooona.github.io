@@ -1,12 +1,12 @@
 ---
-title: "Post about Algorithm"
+title: "Post about Stack"
 layout: archive
-permalink: /categories/Algorithm
+permalink: /Algorithm/Stack
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Algorithm | sort:"date" %}
+{% assign posts = site.categories.Stack | sort:"date" %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
