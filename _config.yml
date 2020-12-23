@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : yyoooona-blog # Short-name
   discourse:
@@ -101,15 +101,15 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-#     - label: "Website"
-#       icon: "fas fa-fw fa-link"
+      url: "mailto:yyoooona@gmail.com"
+     - label: "Website"
+      icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
+     - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-#     - label: "Facebook"
-#       icon: "fab fa-fw fa-facebook-square"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -241,7 +241,7 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 algorithm_archive:
   type: liquid
-  path: /algorithms/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
@@ -267,13 +267,6 @@ compress_html:
 
 # Defaults
 defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
   # _posts
   - scope:
       path: ""
@@ -285,10 +278,4 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      sidebar_main: true
