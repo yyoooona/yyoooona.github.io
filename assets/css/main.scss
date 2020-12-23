@@ -7,4 +7,5 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding'); // font 추가
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap') // font 추가
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
