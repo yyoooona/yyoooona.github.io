@@ -16,8 +16,22 @@
         <span class="nav__sub-title">Algorithm</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Stack" %}
-                        <li><a href="/categories/stack" class="">Stack({{category[1].size}})</a></li>
+                    {% if category[0] == "DataStructure" %}
+                        <li><a href="/categories/datastructure" class="">Data Structure({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DP" %}
+                        <li><a href="/categories/dp" class="">Dynamic Programming({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "BruteForce" %}
+                        <li><a href="/categories/bruteforce" class="">Brute Force({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
