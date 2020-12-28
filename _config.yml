@@ -97,11 +97,11 @@ author:
   avatar           : "/assets/images/mong.PNG"
   bio              : "developer"
   location         : "Republic of Korea"
-  email            : yyoooona@gmail.com
+  # email            : yyoooona@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:yyoooona@gmail.com"
+      url: "mailto:yyoooona@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
