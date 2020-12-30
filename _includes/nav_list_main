@@ -14,14 +14,14 @@
       
       <li>
         <span class="nav__sub-title" v-on:click='togglec()'>Algorithm</span>
-            <ul>
+            <ul v-show="flag_c">
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure" %}
                         <li><a href="/categories/datastructure" class="">Data Structure({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
+            <ul v-show="flag_c">
                 {% for category in site.categories %}
                     {% if category[0] == "Simulation" %}
                         <li><a href="/categories/simulation" class="">Simulation({{category[1].size}})</a></li>
@@ -30,7 +30,7 @@
             </ul>
         
         <span class="nav__sub-title" v-on:click='togglet()'>4차 산업기술</span>
-            <ul>
+            <ul v-show="flag_t">
                 {% for category in site.categories %}
                     {% if category[0] == "AI" %}
                         <li><a href="/categories/ai" class="">AI({{category[1].size}})</a></li>
