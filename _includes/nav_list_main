@@ -13,7 +13,7 @@
       </li>
       
       <li>
-        <span class="nav__sub-title">Algorithm</span>
+        <span class="nav__sub-title" v-on:click='togglec()'>Algorithm</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure" %}
@@ -29,7 +29,7 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">4차 산업기술</span>
+        <span class="nav__sub-title" v-on:click='togglet()'>4차 산업기술</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "AI" %}
