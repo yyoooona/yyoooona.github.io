@@ -13,22 +13,22 @@
       </li>
       
       <li>
-        <span class="nav__sub-title" v-on:click='togglec()'>Algorithm</span>
-            <ul v-show="flag_c">
+        <span class="nav__sub-title">Algorithm</span>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataStructure" %}
                         <li><a href="/categories/datastructure" class="">Data Structure({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul v-show="flag_c">
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Simulation" %}
                         <li><a href="/categories/simulation" class="">Simulation({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul v-show="flag_c">
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Reculsive" %}
                         <li><a href="/categories/reculsive" class="">Reculsive({{category[1].size}})</a></li>
@@ -36,15 +36,15 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title" v-on:click='togglet()'>Computer Science</span>
-            <ul v-show="flag_t">
+        <span class="nav__sub-title">Computer Science</span>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "AI" %}
                         <li><a href="/categories/ai" class="">AI({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul v-show="flag_t">
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Database" %}
                         <li><a href="/categories/database" class="">Database({{category[1].size}})</a></li>
