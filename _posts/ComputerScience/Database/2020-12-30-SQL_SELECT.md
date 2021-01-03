@@ -1,6 +1,6 @@
 ---
 title: Programmers SQL 고득점 Kit - SELECT편
-
+excerpt: SQL 고득점 Kit - SELECT편
 search: true
 
 categories:
