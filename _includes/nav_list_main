@@ -37,6 +37,27 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "BruteForce" %}
+                        <li><a href="/categories/bruteforce" class="">Brute Force({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DynamicProgramming" %}
+                        <li><a href="/categories/dynamicprogramming" class="">Dynamic Programming({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Greedy" %}
+                        <li><a href="/categories/greedy" class="">Greedy({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
                         <li><a href="/categories/programmers" class="">Programmers({{category[1].size}})</a></li>
                     {% endif %}
