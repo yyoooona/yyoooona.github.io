@@ -1,5 +1,5 @@
 ---
-title: "DynamicProgramming"
+title: "Dynamic Programming"
 layout: archive
 permalink: /categories/dynamicprogramming
 author_profile: true
