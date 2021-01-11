@@ -1,5 +1,5 @@
 ---
-title: "BruteForce"
+title: "Brute Force"
 layout: archive
 permalink: /categories/bruteforce
 author_profile: true
