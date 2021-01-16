@@ -47,5 +47,4 @@ www.naver.com과 m.naver.com은 다른 URL!
 
 
 
-
-> 참고 자료 : http://blog.wishket.com/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%9B%B9%EA%B3%BC-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-%EB%B9%84%EA%B5%90/
+> [참고 자료 : wishket 블로그](http://blog.wishket.com/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%9B%B9%EA%B3%BC-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-%EB%B9%84%EA%B5%90/)
