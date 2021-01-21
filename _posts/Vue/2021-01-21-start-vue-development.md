@@ -33,30 +33,36 @@ last_modified_at: 2021-01-21
 
        &#9994; settings에서 single quote 검색, Single Quote 체크표시
 
-       ![image-20210119010504689](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210119010504689.png)
+       ![1](https://user-images.githubusercontent.com/47768081/105375886-7d09db80-5c4c-11eb-9f76-f35146a3ae41.png)
+
+       
 
        &#9757; settings에서 format on 검색, format on save랑 type에 체크 표시
 
-       ![image-20210119011217424](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210119011217424.png)
+       ![image-20210119011217424](https://user-images.githubusercontent.com/47768081/105376068-b0e50100-5c4c-11eb-9564-95a61d24759f.png)
+
+       
 
        
 
        &#10024; Prettier활용법
-
+     
        해당 파일(.html .vue 등)에서 마우스 우클릭 -> 
-
-       ![image-20210119022929919](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210119022929919.png)
-
+       
+       ![3](https://user-images.githubusercontent.com/47768081/105376220-de31af00-5c4c-11eb-9374-47654c1d9051.png)
+       
+       ​	
+       
+       ![4](https://user-images.githubusercontent.com/47768081/105376230-e12c9f80-5c4c-11eb-99a8-d251b72a7963.png)
      
      
-     
-     ​				<img src="C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210119023038678.png" alt="image-20210119023038678" style="zoom:80%;" />
+     ​			
      
      
      
      - Material Theme, Material Icon Theme
      
-       ![image-20210119011414287](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210119011414287.png)
+       ![5](https://user-images.githubusercontent.com/47768081/105376247-e4279000-5c4c-11eb-99e4-55ae693ca6a5.png)
      
        
      
@@ -66,9 +72,7 @@ last_modified_at: 2021-01-21
 
 2. Emmet 표기법
 
-   ![image-20210119011757901](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210119011757901.png)
-
-   -> 업로드 시 수정필요(ssafy)
+   [Emmet 공식 문서](https://docs.emmet.io/abbreviations/syntax)
 
    
 
